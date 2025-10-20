@@ -40,6 +40,7 @@ fire ball (green)
 Time Details
 
 * Fixed compiler error: 10mins
+* Added Mouse control for paddle: 40mins
 * 
 
 
@@ -47,3 +48,5 @@ Time Details
 Changelist
 
 * Fixed Compiler error by removing PowerupFireBall.h from PowerupBase header file
+* Added Mouse control for paddle using sf::Mouse::getPosition(\*\_window) then realised can just use sf::Mouse::getPosition(\*\_window).x
+* 
