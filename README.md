@@ -41,7 +41,8 @@ Time Details
 
 * Fixed compiler error: 10mins
 * Added Mouse control for paddle: 40mins
-* 
+* Added Progress bar for powerups: 1hr 15mins
+* Total time: 2hrs 5mins
 
 
 
@@ -49,4 +50,7 @@ Changelist
 
 * Fixed Compiler error by removing PowerupFireBall.h from PowerupBase header file
 * Added Mouse control for paddle using sf::Mouse::getPosition(\*\_window) then realised can just use sf::Mouse::getPosition(\*\_window).x
-* 
+* Added Progress bar for powerups by creating a rectangle for the background and a fill rectangle that scales with the time remaining of the powerup
+
+
+
